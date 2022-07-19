@@ -108,8 +108,59 @@ body {
 
 /* Banner section */
 .banner {
+    position: relative;
     background: url(/img/background_banner.png) no-repeat;
     height: 100vh;
-   
     background-size: cover;
 }
+.image  {
+  
+}
+.image .hoverImg {
+    display: none;
+   
+   }
+   .image:hover .img {
+  
+    display: none
+   }
+   .image:hover .hoverImg {
+   
+    display: block
+   }
+   .posa {position: absolute;}
+
+   /* Position banner elements */
+   .dream {
+    left: 158px;
+    top: 44px;
+   }
+   .tour  {
+    left: 112px;
+    bottom: 74px;
+   }
+   .stage {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* left: 35%; */
+    top: 153px;
+}
+   .dechords {
+    max-width: 748px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 74px;
+   }
+   .lineup {
+    right: 0;
+    top: 75;
+   }
+   .audition {
+    right: 0;
+    bottom: 0;
+   }
