@@ -1,0 +1,21 @@
+@media (max-width:4000px) and (min-width:1920px) {
+    .stage {
+        top: 30px;
+    }
+
+    .dream {
+        max-width: 507px;
+        left: 117px;
+        top: 0;
+    }
+    .dechords {
+         bottom: 33px;
+    }
+    .tour {
+        left: 139px;
+    }
+    .audition {
+        
+        bottom: -30px;
+    }
+}

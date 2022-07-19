@@ -113,33 +113,40 @@ body {
     height: 100vh;
     background-size: cover;
 }
-.image  {
-  
-}
+
+.image {}
+
 .image .hoverImg {
     display: none;
-   
-   }
-   .image:hover .img {
-  
-    display: none
-   }
-   .image:hover .hoverImg {
-   
-    display: block
-   }
-   .posa {position: absolute;}
 
-   /* Position banner elements */
-   .dream {
+}
+
+.image:hover .img {
+
+    display: none
+}
+
+.image:hover .hoverImg {
+
+    display: block
+}
+
+.posa {
+    position: absolute;
+}
+
+/* Position banner elements */
+.dream {
     left: 158px;
     top: 44px;
-   }
-   .tour  {
+}
+
+.tour {
     left: 112px;
     bottom: 74px;
-   }
-   .stage {
+}
+
+.stage {
     margin-left: auto;
     margin-right: auto;
     left: 0;
@@ -148,19 +155,61 @@ body {
     /* left: 35%; */
     top: 153px;
 }
-   .dechords {
+
+.dechords {
     max-width: 748px;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     bottom: 74px;
-   }
-   .lineup {
+}
+
+.lineup {
     right: 0;
     top: 75;
-   }
-   .audition {
+}
+
+.audition {
     right: 0;
     bottom: 0;
-   }
+}
+
+.banner__social {
+    padding-top: 50px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.discord {
+    right: 230px;
+}
+
+.twitter {
+    right: 160px;
+    top: 87px;
+}
+
+.magiceden {
+    top: 182px;
+    right: 106px;
+}
+
+.youtube {
+    top: 225px;
+    right: 46px;
+}
+
+.instagram {
+    top: 315px;
+    right: 7px;
+}
